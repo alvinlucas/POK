@@ -1,0 +1,68 @@
+.wrapper {
+    background-color: #587FFF;
+    padding-top: 5%;
+}
+.third-title {
+    color: white;
+    margin-left: 10%;
+}
+.contact-form {
+    background-color: white;
+    border: solid 4px black;
+    box-shadow: 4px 4px 0 black;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+input {
+    display: block;
+    border: none;
+    border-bottom: solid 4px black;
+    width: 99%;
+}
+#input-mail {
+    padding: 5px 5px;
+}
+#input-text {
+    padding: 5px 5px;
+    height: 20rem;
+}
+.submit-button {
+    border: solid 4px black;
+    background-color: #587FFF;
+    box-shadow: 4px 4px 0px black;
+    text-align: center;
+    padding: 0.5rem 0.5rem;
+    text-decoration: none;
+    color: white;
+    margin: 20px auto;
+    width: 20%;
+}
+.submit-button:hover {
+    background-color: white;
+    color: #587FFF;
+    box-shadow: none;
+}
+.mentions {
+    border-left: solid 2px white;
+    line-height: 2rem;
+    margin: 0 auto;
+    width: 40%;
+    
+}
+.mentions ul {
+    list-style: none;
+    margin-left: -7%;
+}
+.mentions a {
+    color: white;
+    text-decoration: none;
+}
+.footer {
+    background-color: #3750a3;
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    padding: 1rem 0;
+
+}
