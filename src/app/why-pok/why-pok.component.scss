@@ -6,6 +6,8 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
     grid-auto-rows: minmax(100px, auto);
+    width: 80%;
+    margin: 0 auto;
   }
   .one {
     grid-column: 1;
