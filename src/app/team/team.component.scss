@@ -1,0 +1,35 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(200px, auto);
+    width: 80%;
+    margin: 5% auto;
+}
+.title img, .main-title {
+    display: inline-block;
+}
+.main-title {
+    font-size: 4rem;
+}
+.text {
+    line-height: 2rem;
+    width: 80%;
+}
+
+.heads-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(200px, auto);
+}
+.seven {
+    margin-left: 50%;
+}
+.eight {
+    margin-left: 50%;
+}
+.head {
+    border: 4px solid black;
+    border-radius: 60px;
+    width: 100px;
+    height: 100px;
+}
