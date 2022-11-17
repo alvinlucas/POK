@@ -15,6 +15,7 @@
     margin-bottom: 5%;
 }
 input, textarea {
+    font-family: 'Panchang-Bold';
     display: block;
     border: none;
     border-bottom: solid 4px black;
@@ -33,7 +34,7 @@ input, textarea {
     box-shadow: 4px 4px 0px black;
     text-align: center;
     padding: 0.5rem 0.5rem;
-    text-decoration: none;
+    font-family: 'Panchang-Bold';
     color: white;
     margin: 20px auto;
     width: 20%;
@@ -57,6 +58,9 @@ img {
     grid-column: 1;
     grid-row: 2;
 }
+#pok {
+    margin-top: 1.5rem;
+}
 .item2{
     grid-column: 2;
     grid-row: 1 / 3;
@@ -70,6 +74,7 @@ img {
     line-height: 2rem;
     margin: 0 auto;
     margin-left: 5rem;
+    margin-right: 10rem;
     width: 20rem;
 }
 .mentions ul {
@@ -82,6 +87,7 @@ img {
 }
 .container-logo {
     display: flex;
+    margin-top: 3rem;
 }
 .item-logo {
     margin-right: 2rem;
@@ -92,4 +98,6 @@ img {
     text-align: center;
     margin-top: 5%;
     padding: 1rem 0;
+    font-family: 'Panchang-Regular';
+    font-size: 10px;
 }

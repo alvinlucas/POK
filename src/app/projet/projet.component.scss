@@ -7,6 +7,16 @@
     margin-left: 10%;
     color: white;
 }
+.header {
+  display: flex;
+}
+.main-title {
+  margin-right: 25rem;
+}
+.logo {
+  width: 80px;
+  transform: rotate(30deg);
+}
 .wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
