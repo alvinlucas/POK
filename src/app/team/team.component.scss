@@ -9,9 +9,12 @@
     display: inline-block;
 }
 .main-title {
-    font-size: 4rem;
+    font-size: 3rem;
+    vertical-align: top;
 }
 .text {
+    font-family: 'Panchang-Regular';
+    font-size: 20px;
     line-height: 2rem;
     width: 80%;
 }

@@ -7,6 +7,15 @@
     margin-left: 10%;
     color: white;
 }
+.header {
+  display: flex;
+}
+.main-title {
+  margin-right: 25rem;
+}
+.logo {
+  width: 100px;
+}
 .wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
