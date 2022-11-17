@@ -21,18 +21,41 @@
 
 .heads-wrapper {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-auto-rows: minmax(200px, auto);
 }
-.seven {
-    margin-left: 50%;
+.one {
+    grid-column: 2;
+    grid-row: 1;
 }
-.eight {
-    margin-left: 50%;
+.two {
+    grid-column: 4;
+    grid-row: 1;
+}
+.three {
+    grid-column: 1;
+    grid-row: 2;
+}
+.four {
+    grid-column: 3;
+    grid-row: 2;
+}
+.five {
+    grid-column: 5;
+    grid-row: 2;
+}
+.six {
+    grid-column: 2;
+    grid-row: 3;
+}
+.seven {
+    grid-column: 4;
+    grid-row: 3;
 }
 .head {
     border: 4px solid black;
     border-radius: 60px;
+    box-shadow: 4px 4px 0 black;
     width: 100px;
     height: 100px;
 }
