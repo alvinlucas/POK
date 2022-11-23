@@ -29,6 +29,10 @@
     grid-template-columns: repeat(5, 1fr);
     grid-auto-rows: minmax(200px, auto);
 }
+.heads-wrapper a {
+    text-decoration: none;
+    color: black;
+}
 .one {
     grid-column: 2;
     grid-row: 1;
