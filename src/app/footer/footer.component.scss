@@ -4,15 +4,16 @@
     height: 3rem;
     overflow: hidden;  
     text-align: right; 
+    padding-top: 1%;
 }
 .footer p {
-    font-size: 20px;
+    font-size: 100%;
     line-height: 7px;
-    animation: linear marqueelike 15s infinite;
+    animation: linear marqueelike 15s alternate infinite;
 }
 @keyframes marqueelike {
     0%{
-        transform: translate(70%, 0);
+        transform: translate(95%, 0);
     }
     100% {
         transform: translate(-100%, 0);

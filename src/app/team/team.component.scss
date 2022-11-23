@@ -2,21 +2,26 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: minmax(200px, auto);
-    width: 80%;
+    width: 90%;
     margin: 5% auto;
 }
-.title img, .main-title {
-    display: inline-block;
+.title {
+    display: flex;
+}
+.un {
+    margin-top: 30%;
 }
 .main-title {
-    font-size: 3rem;
-    vertical-align: top;
+    font-size: 2.5rem;
+}
+.logo {
+    width: 30%;
 }
 .text {
     font-family: 'Panchang-Regular';
     font-size: 20px;
     line-height: 2rem;
-    width: 80%;
+    width: 100%;
 }
 
 .heads-wrapper {
