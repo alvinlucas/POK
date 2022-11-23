@@ -11,6 +11,7 @@ import { Projet3Component } from './projet3/projet3.component';
 import { FooterComponent } from './footer/footer.component';
 import { TeamComponent } from './team/team.component';
 import { ContactezNousComponent } from './contactez-nous/contactez-nous.component';
+import { ChargementComponent } from './chargement/chargement.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ContactezNousComponent } from './contactez-nous/contactez-nous.componen
     Projet3Component,
     FooterComponent,
     TeamComponent,
-    ContactezNousComponent
+    ContactezNousComponent,
+    ChargementComponent
   ],
   imports: [
     BrowserModule
