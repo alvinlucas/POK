@@ -7,6 +7,7 @@
 }
 .one {
     grid-column: 1 / 2;
+    width: 150%;
 }
 .two {
     grid-column: 3;
@@ -14,7 +15,7 @@
 }
 h2 {
     width: 150%;
-    font-size: 50px;
+    font-size: 2rem;
 }
 .text {
     font-family: 'Panchang-Regular';
@@ -33,5 +34,5 @@ span {
     margin-right: 2rem;
 }
 .logo {
-    width: 300px;
+    width: 250px;
 }
