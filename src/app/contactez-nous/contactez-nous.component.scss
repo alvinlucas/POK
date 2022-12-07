@@ -5,6 +5,11 @@
     width: 80%;
     margin: 5% auto;
 }
+.grille {
+    position: absolute;
+    top: 710%;
+    z-index: -1;
+  }
 .one {
     grid-column: 1 / 2;
     width: 150%;
