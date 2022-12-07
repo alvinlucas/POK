@@ -1,13 +1,13 @@
 .grille {
     position: absolute;
-    top: 0px;
-    left: 200px;
+    top: 0%;
+    left: 0%;
     z-index: -1;
 }
 .dot {
     position: absolute;
-    top: 250px;
-    right: 220px;
+    bottom: 0%;
+    right: 2%;
     z-index: -1;
 }
 .wrapper {
@@ -84,9 +84,10 @@ span {
 .container-logo {
     display: flex;
     float: right;
+    position: absolute;right: 11.5%;
 }
 .item-logo {
-    margin-left: 1rem;
+    margin-left: 0.5rem;
 }
 
 .video {
