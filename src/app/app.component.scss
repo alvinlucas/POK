@@ -1,7 +1,17 @@
 @import url('../fonts/Panchang_Complete/Fonts/WEB/css/panchang.css');
 
 .wrapper {
-    font-family: 'Panchang-Bold';
+    font-family: 'Panchang-Bold';  
     margin: 0 -8px;
-    margin-bottom: -8px; 
+    margin-bottom: -8px;
+}
+
+.video {
+    display: none;
+}
+
+@media screen and (max-width: 400px) {
+    .video {
+        display: block;
+    }
 }
