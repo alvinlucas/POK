@@ -1,7 +1,7 @@
 .dots {
   position: absolute;
-  top: 4200px;
-  left: 230px;
+  // top: 4200px;
+  // left: 230px;
   z-index: 0;
 }
 #wrapper {
@@ -17,7 +17,7 @@
   display: flex;
 }
 .main-title {
-  margin-right: 15rem;
+  margin-right: 40%;
 }
 .logo {
   width: 100px;
@@ -58,6 +58,7 @@
   .bottom-div {
     width: 80%;
     margin: 0 auto;
+    padding-top: 2%;
     line-height: 2rem;
     color: white;
   }
