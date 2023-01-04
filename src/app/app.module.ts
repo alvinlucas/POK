@@ -12,6 +12,7 @@ import { FooterComponent } from './footer/footer.component';
 import { TeamComponent } from './team/team.component';
 import { ContactezNousComponent } from './contactez-nous/contactez-nous.component';
 import { ChargementComponent } from './chargement/chargement.component';
+import { VideoComponent } from './video/video.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { ChargementComponent } from './chargement/chargement.component';
     FooterComponent,
     TeamComponent,
     ContactezNousComponent,
-    ChargementComponent
+    ChargementComponent,
+    VideoComponent
   ],
   imports: [
     BrowserModule
