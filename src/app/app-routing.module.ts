@@ -5,8 +5,8 @@ import { LandingPageComponent } from "./landing-page/landing-page.component";
 import { OnePageComponent } from "./one-page/one-page.component";
 
 const routes: Routes =[
+  { path: '', component: LandingPageComponent },
  {path: 'home', component: OnePageComponent},
- { path: '', component: LandingPageComponent },
  { path: '404', component: ErrorComponent },
  { path: '**', redirectTo: '/404' }
 
