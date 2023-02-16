@@ -1,36 +1,45 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
-import { WhyPokComponent } from './why-pok/why-pok.component';
-import { ContactComponent } from './contact/contact.component';
-import { ProjetComponent } from './projet/projet.component';
-import { Projet2Component } from './projet2/projet2.component';
-import { Projet3Component } from './projet3/projet3.component';
-import { FooterComponent } from './footer/footer.component';
-import { TeamComponent } from './team/team.component';
-import { ContactezNousComponent } from './contactez-nous/contactez-nous.component';
 import { ChargementComponent } from './chargement/chargement.component';
-import { VideoComponent } from './video/video.component';
+import { ErrorComponent } from './error/error.component';
+import { AppRoutingModule } from './app-routing.module';
+import { OnePageComponent } from './one-page/one-page.component';
+import { ContactComponent } from './one-page/contact/contact.component';
+import { ContactezNousComponent } from './one-page/contactez-nous/contactez-nous.component';
+import { FooterComponent } from './one-page/footer/footer.component';
+import { HomeComponent } from './one-page/home/home.component';
+import { ProjetComponent } from './one-page/projet/projet.component';
+import { Projet2Component } from './one-page/projet2/projet2.component';
+import { Projet3Component } from './one-page/projet3/projet3.component';
+import { TeamComponent } from './one-page/team/team.component';
+import { VideoComponent } from './one-page/video/video.component';
+import { WhyPokComponent } from './one-page/why-pok/why-pok.component';
+import { LandingPageComponent } from './landing-page/landing-page.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
+    ChargementComponent,
+    ErrorComponent,
+    OnePageComponent,
     HomeComponent,
-    WhyPokComponent,
     ContactComponent,
     ProjetComponent,
     Projet2Component,
     Projet3Component,
     FooterComponent,
+    WhyPokComponent,
     TeamComponent,
     ContactezNousComponent,
-    ChargementComponent,
-    VideoComponent
+    VideoComponent,
+    LandingPageComponent,
+    
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

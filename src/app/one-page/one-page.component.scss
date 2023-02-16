@@ -1,0 +1,10 @@
+
+.video {
+    display: none;
+}
+
+@media screen and (max-width: 400px) {
+    .video {
+        display: block;
+    }
+}
