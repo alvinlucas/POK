@@ -11,6 +11,10 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
   }
-}
+  isMenuOpen = false;
 
+  toggleMenu(): void {
+    this.isMenuOpen = !this.isMenuOpen;
+  }
+}
 
