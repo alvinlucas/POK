@@ -1,107 +1,213 @@
-.grille {
-    position: absolute;
-    top: 530%;
-    z-index: -2;
+@media screen and (min-width: 1400px) { 
+
+    .grille {
+        position: absolute;
+        top: 530%;
+        z-index: -2;
+    }
+    .wrapper {
+        background-color: #587FFF;
+        padding-top: 5%;
+    }
+    .third-title {
+        color: white;
+        margin-left: 10%;
+    }
+    .contact-form {
+        background-color: white;
+        border: solid 4px black;
+        box-shadow: 4px 4px 0 black;
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 5%;
+    }
+    input, textarea {
+        font-family: 'Panchang-Bold';
+        display: block;
+        border: none;
+        border-bottom: solid 4px black;
+        width: 99%;
+    }
+    #input-mail {
+        padding: 5px 5px;
+    }
+    #input-text {
+        padding: 5px 5px;
+        height: 20rem;
+    }
+    .submit-button {
+        border: solid 4px black;
+        background-color: #587FFF;
+        box-shadow: 4px 4px 0px black;
+        text-align: center;
+        padding: 0.5rem 0.5rem;
+        font-family: 'Panchang-Bold';
+        color: white;
+        margin: 20px auto;
+        width: 20%;
+    }
+    .submit-button:hover {
+        background-color: white;
+        color: #587FFF;
+        box-shadow: none;
+    }
+    img {
+        margin-right: 10%;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-auto-rows: minmax(100px, auto);
+        width: 80%;
+        margin: 0 auto;
+    }
+    .item1{
+        grid-column: 1;
+        grid-row: 2;
+    }
+    #pok {
+        margin-top: 1.5rem;
+    }
+    .item2{
+        grid-column: 2;
+        grid-row: 1 / 3;
+    }
+    .item3{
+        grid-column: 3;
+        grid-row: 2;
+    }
+    .mentions {
+        border-left: solid 4px white;
+        line-height: 2rem;
+        margin: 0 auto;
+        margin-left: 5rem;
+        width: 20rem;
+    }
+    .mentions ul {
+        list-style: none;
+        margin-left: -5%;
+    }
+    .mentions a {
+        color: white;
+        text-decoration: none;
+    }
+    .container-logo {
+        display: flex;
+        margin-top: 3rem;
+    }
+    .item-logo {
+        margin-right: 2rem;
+    }
+    .footer {
+        background-color: rgb(0, 0, 0, 0.3);
+        color: white;
+        text-align: center;
+        margin-top: 5%;
+        padding: 1rem 0;
+        font-family: 'Panchang-Regular';
+        font-size: 10px;
+    }
 }
-.wrapper {
-    background-color: #587FFF;
-    padding-top: 5%;
-}
-.third-title {
-    color: white;
-    margin-left: 10%;
-}
-.contact-form {
-    background-color: white;
-    border: solid 4px black;
-    box-shadow: 4px 4px 0 black;
-    width: 80%;
-    margin: 0 auto;
-    margin-bottom: 5%;
-}
-input, textarea {
-    font-family: 'Panchang-Bold';
-    display: block;
-    border: none;
-    border-bottom: solid 4px black;
-    width: 99%;
-}
-#input-mail {
-    padding: 5px 5px;
-}
-#input-text {
-    padding: 5px 5px;
-    height: 20rem;
-}
-.submit-button {
-    border: solid 4px black;
-    background-color: #587FFF;
-    box-shadow: 4px 4px 0px black;
-    text-align: center;
-    padding: 0.5rem 0.5rem;
-    font-family: 'Panchang-Bold';
-    color: white;
-    margin: 20px auto;
-    width: 20%;
-}
-.submit-button:hover {
-    background-color: white;
-    color: #587FFF;
-    box-shadow: none;
-}
-img {
-    margin-right: 10%;
-}
-.container {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-auto-rows: minmax(100px, auto);
-    width: 80%;
-    margin: 0 auto;
-}
-.item1{
-    grid-column: 1;
-    grid-row: 2;
-}
-#pok {
-    margin-top: 1.5rem;
-}
-.item2{
-    grid-column: 2;
-    grid-row: 1 / 3;
-}
-.item3{
-    grid-column: 3;
-    grid-row: 2;
-}
-.mentions {
-    border-left: solid 4px white;
-    line-height: 2rem;
-    margin: 0 auto;
-    margin-left: 5rem;
-    width: 20rem;
-}
-.mentions ul {
-    list-style: none;
-    margin-left: -5%;
-}
-.mentions a {
-    color: white;
-    text-decoration: none;
-}
-.container-logo {
-    display: flex;
-    margin-top: 3rem;
-}
-.item-logo {
-    margin-right: 2rem;
-}
-.footer {
-    background-color: rgb(0, 0, 0, 0.3);
-    color: white;
-    text-align: center;
-    margin-top: 5%;
-    padding: 1rem 0;
-    font-family: 'Panchang-Regular';
-    font-size: 10px;
+
+@media screen and (max-width: 400px) { 
+
+    .wrapper {
+        background-color: #587FFF;
+        padding: 10% 10%;
+        padding-bottom: 0%;
+    }
+
+    .third-title, .mentions, .mentions a, .footer {
+        color: white;
+    }
+
+    .contact-form {
+        background-color: white;
+        border: solid 4px black;
+        box-shadow: 4px 4px 0 black;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 10%;
+    }
+
+    input, textarea {
+        font-family: 'Panchang-Bold';
+        display: block;
+        border: none;
+        border-bottom: solid 4px black;
+        width: 97%;
+    }
+
+    #input-mail {
+        padding: 5px 5px;
+    }
+
+    #input-text {
+        padding: 5px 5px;
+        height: 20rem;
+    }
+
+    .submit-button {
+        border: solid 4px black;
+        background-color: #587FFF;
+        box-shadow: 4px 4px 0px black;
+        text-align: center;
+        padding: 0.2rem 0.2rem;
+        font-family: 'Panchang-Bold';
+        color: white;
+        margin: 20px auto;
+        width: 60%;
+        font-size: 70%;
+    }
+
+    .submit-button:hover {
+        background-color: white;
+        color: #587FFF;
+        box-shadow: none;
+    }
+
+    #pok {
+        display: none;
+    }
+
+    .mentions {
+        border-left: solid 4px white;
+        line-height: 1.5rem;
+        margin: 0 auto;
+        font-size: 70%;
+    }
+
+    .mentions a {
+        text-decoration: none;
+    }
+
+     .mentions ul {
+        list-style: none;
+        margin-left: -5%;
+    }
+
+    .container-logo {
+        display: flex;
+        justify-content: center;
+        margin-top: 10%;
+    }
+
+    .item-logo {
+        margin-right: 5%;
+    }
+
+    .container-logo img {
+        width: 60%;
+    }
+
+    .footer {
+        background-color: rgb(0, 0, 0, 0.3);
+        color: white;
+        text-align: center;
+        padding: 0.5rem 0;
+        font-family: 'Panchang-Regular';
+        font-size: 8px;
+        margin: 0 -12.5%;
+        margin-top: 10%;
+    }
 }

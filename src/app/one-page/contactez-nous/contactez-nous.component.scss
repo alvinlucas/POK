@@ -56,7 +56,9 @@
 @media screen and (max-width: 400px) {
 
     .grille {
-        display: none;
+        position: absolute;
+        left: -20%;
+        z-index: -1;
     }
 
     .dot {
@@ -73,6 +75,11 @@
 
     .container-logo {
         display: flex;
+        justify-content: center;
+    }
+
+    .container-logo img {
+        width: 60%;
     }
 
     .item-logo {

@@ -12,7 +12,7 @@ export class ChargementComponent implements OnInit {
   ngOnInit(): void {
     setTimeout(()=>{    
               
-  }, 3000);
+  }, 2000);
   }
   
 
