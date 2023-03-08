@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
-import { ChargementComponent } from './chargement/chargement.component';
 import { ErrorComponent } from './error/error.component';
 import { AppRoutingModule } from './app-routing.module';
 import { OnePageComponent } from './one-page/one-page.component';
@@ -16,12 +15,13 @@ import { TeamComponent } from './one-page/team/team.component';
 import { VideoComponent } from './one-page/video/video.component';
 import { WhyPokComponent } from './one-page/why-pok/why-pok.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
+import { FormsModule } from '@angular/forms'; // Importez FormsModule
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    ChargementComponent,
     ErrorComponent,
     OnePageComponent,
     HomeComponent,
@@ -39,7 +39,8 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

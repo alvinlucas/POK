@@ -11,5 +11,13 @@ export class WhyPokComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  scrollToSectionCtc() {
+    setTimeout(() => {
+    const element = document.getElementById("ctc");
+    if (element) {
+    element.scrollIntoView( {behavior: "smooth", block: "start", inline: "nearest"});
+  }
+}, 100);
+  }
+  
 }

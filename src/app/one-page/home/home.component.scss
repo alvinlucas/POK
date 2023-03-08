@@ -1,5 +1,7 @@
 @media screen and (min-width: 1400px) {
-    
+  html {
+    scroll-behavior: smooth;
+  }
     .grille {
         position: absolute;
         top: 0%;

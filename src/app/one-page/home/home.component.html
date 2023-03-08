@@ -8,8 +8,8 @@
     <div class="one">
         <div class="header">
             <img src="/assets/image/LOGO-POK.png" alt="" class="logo">
-            <a href="../projet/projet.component.html#real" class="real">NOS REALISATION</a>
-            <a href="../contact/contact.component.html#ctc" class="contact">NOUS CONTACTER</a>
+            <a (click)="scrollToSectionReal()" class="real">NOS REALISATION</a>
+            <a (click)="scrollToSectionCtc()" class="contact">NOUS CONTACTER</a>
         </div>
         <div class="text">
             <span>POK</span> est une <span>agence de design</span> créé par les étudiants d'<span>Ynov</span>.<br><br>
@@ -17,8 +17,8 @@
             N'hésitez pas à <span>nous contacter</span>.
         </div>
         <div class="buttons">
-            <a href="../why-pok/why-pok.component.html#discover" class="button un">DECOUVRIR</a>
-            <a href="../contact/contact.component.html#ctc" class="button deux">NOUS CONTACTER</a>
+           <a (click)="scrollToSectionDecouvrir()"  class="button un">DECOUVRIR</a>
+           <a (click)="scrollToSectionCtc()"  class="button deux">NOUS CONTACTER</a>
         </div>
     </div>
     <div class="two">
