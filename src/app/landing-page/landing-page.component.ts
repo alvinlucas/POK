@@ -11,7 +11,7 @@ export class LandingPageComponent implements OnInit {
 
   constructor(private router: Router) { setTimeout(() => {
     this.router.navigateByUrl('/home');
-  }, 2000); // Redirect after 3 seconds
+  }, 1200); // Redirect after 3 seconds
 }
 
   ngOnInit(): void {
