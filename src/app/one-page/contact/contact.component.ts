@@ -7,20 +7,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactComponent implements OnInit {
 
-  nom: string;
   email: string;
+  subject: string;
   message: string;
 
   constructor() { 
-    this.nom = '';
     this.email = '';
+    this.subject = '';
     this.message = '';
   }
 
   ngOnInit(): void {
   }
   envoyer() {
-    window.location.href = "mailto:alvin44.lucas@gmail.com?subject="  + "&body=" + this.message;
+    window.location.href = "mailto:pokagence@gmail.com?subject=" + this.subject  + "&body=" + this.message;
   }
 
   scrollToSectionReal() {

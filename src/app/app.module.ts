@@ -16,6 +16,7 @@ import { VideoComponent } from './one-page/video/video.component';
 import { WhyPokComponent } from './one-page/why-pok/why-pok.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { FormsModule } from '@angular/forms'; // Importez FormsModule
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -40,7 +41,8 @@ import { FormsModule } from '@angular/forms'; // Importez FormsModule
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
