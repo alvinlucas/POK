@@ -17,6 +17,7 @@ import { WhyPokComponent } from './one-page/why-pok/why-pok.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { FormsModule } from '@angular/forms'; // Importez FormsModule
 import { HttpClientModule } from '@angular/common/http';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 
 
@@ -42,7 +43,8 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

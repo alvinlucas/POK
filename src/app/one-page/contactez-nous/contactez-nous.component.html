@@ -1,4 +1,7 @@
-<div class="grille">
+<head>
+  <script src="https://kit.fontawesome.com/2442f667b4.js" crossorigin="anonymous"></script>
+</head>
+<body><div class="grille">
     <img src="/assets/image/grid-asset.png" alt="grid">
 </div>
 <div class="wrapper">
@@ -16,12 +19,18 @@
               N’hésitez pas à nous contacter !
         </div>
         <div class="container-logo">
-            <div class="item-logo"><img src="/assets/image/linkedIn-bleu.png"></div>
-            <div class="item-logo"><a href="https://www.instagram.com/pok_agence/?hl=fr" target="_blank"><img src="/assets/image/insta-bleu.png"></a></div>
-            <div class="item-logo"><img src="/assets/image/twitter-bleu.png"></div>
-            <div class="item-logo"><a href="https://www.youtube.com/channel/UC0hfQwkVB0ofA71cL0AoUyQ" target="_blank"><img src="/assets/image/youtube-bleu.png"></a></div>
-            <div class="item-logo"><img src="/assets/image/tumblr-bleu.png"></div>
-            <div class="item-logo"><img src="/assets/image/enveloppe.png"></div>
+            <fa-icon  title="Linkedin" class="item-logo"  [icon]="faLinkedin"></fa-icon>
+            <a href="https://www.instagram.com/pok_agence/?hl=fr">
+              <fa-icon  title="Instagram" class="item-logo"  [icon]="faInstagram"> </fa-icon>
+            </a>
+            <fa-icon  title="Twitter" class="item-logo"  [icon]="faTwitter"></fa-icon>
+            <a href="https://www.youtube.com/channel/UC0hfQwkVB0ofA71cL0AoUyQ">
+              <fa-icon title="Youtube" class="item-logo"  [icon]="faYoutube"></fa-icon> 
+            </a>
+            <fa-icon title="Tumblr" class="item-logo"  style="font-size: 38px;" [icon]="faTumblr"></fa-icon>
+            <a href="mailto:alvin44.lucas@gmail.com">
+              <fa-icon title="Envoyez nous un mail !" class="item-logo"  [icon]="faEnvelope"></fa-icon>
+            </a>
         </div>
     </div>
     <div class="droite">
@@ -31,3 +40,4 @@
   </div>
 </div>
 <div class="dot"> <img src="/assets/image/dots-assets.png" alt="dots" width="250px" height="400px"></div>
+</body>

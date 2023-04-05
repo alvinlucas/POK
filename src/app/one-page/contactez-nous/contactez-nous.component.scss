@@ -10,11 +10,11 @@
     bottom: 0%;
     right: 0%;
     z-index: -1;
-    top: 810%;
+    top: 820%;
   }
 .grille {
     position: absolute;
-    top: 730%;
+    top: 740%;
     z-index: -1;
   }
 .one {
@@ -43,8 +43,11 @@ span {
     display: flex;
 }
 .item-logo {
-    margin-right: 2rem;
-    background-color: #587FFF;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    color: #587fff;
+    font-size: 40px;
+    cursor: pointer;
 }
 .logo {
     width: 300px;

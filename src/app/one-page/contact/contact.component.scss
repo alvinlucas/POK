@@ -92,9 +92,14 @@ img {
 .container-logo {
     display: flex;
     margin-top: 3rem;
+    padding-left: 15rem;
 }
 .item-logo {
-    margin-right: 2rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  color: white;
+  font-size: 40px;
+  cursor: pointer;
 }
 .footer {
     background-color: rgb(0, 0, 0, 0.3);
