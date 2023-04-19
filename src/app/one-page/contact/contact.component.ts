@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import {  faTwitter, faInstagram, faLinkedin, faYoutube, faTumblr } from '@fortawesome/free-brands-svg-icons';
+
 
 @Component({
   selector: 'app-contact',
@@ -7,21 +10,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactComponent implements OnInit {
 
-  email: string;
-  subject: string;
-  message: string;
+  faTwitter = faTwitter;
+  faInstagram = faInstagram;
+  faLinkedin = faLinkedin;
+  faYoutube = faYoutube;
+  faTumblr = faTumblr;
+  faEnvelope = faEnvelope;
 
-  constructor() { 
-    this.email = '';
-    this.subject = '';
-    this.message = '';
-  }
 
   ngOnInit(): void {
   }
-  envoyer() {
-    window.location.href = "mailto:pokagence@gmail.com?subject=" + this.subject  + "&body=" + this.message;
-  }
+
 
   scrollToSectionReal() {
     setTimeout(() => {

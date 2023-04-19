@@ -3,6 +3,7 @@
   // top: 2420px;
   // left: 230px;
   z-index: 0;
+  top : 375%;
 }
 #wrapper {
     background-color: #DA4A6D;
@@ -17,11 +18,12 @@
   display: flex;
 }
 .main-title {
-  margin-right: 38%;
+  margin-right: 59%;
 }
 .logo {
   width: 100px;
   height: 100px;
+  transform: rotate(30deg);
 }
 
 
