@@ -2,7 +2,7 @@
 
   .grille {
     position: absolute;
-    top: 250%;
+    top: 200%;
     z-index: -1;
   }
   .dot {
@@ -10,7 +10,7 @@
     bottom: 0%;
     right: 0%;
     z-index: -1;
-    top: 320%;
+    top: 300%;
   }
   .main-title {
     margin-top: 7%;
@@ -30,9 +30,6 @@
     .one {
       grid-column: 1;
       grid-row: 1 / 4;
-      border: solid 4px black;
-      background-color: #587FFF;
-      box-shadow: 4px 4px 0px black;
       text-align: center;
       margin-right: 10%;
       margin-left: 40%;
@@ -98,10 +95,6 @@
     .one {
       grid-column: 1;
       grid-row: 1 / 4;
-      border: solid 4px black;
-      background-color: #587FFF;
-      box-shadow: 4px 4px 0px black;
-      text-align: center;
       margin-right: 10%;
       margin-left: 40%;
       color: white;
@@ -121,9 +114,7 @@
       display: none;
     }
     .a-three {
-      border: solid 4px black;
-      background-color: #587FFF;
-      box-shadow: 4px 4px 0px black;
+
       text-align: center;
       padding: 0.5rem 0.5rem;
       text-decoration: none;
