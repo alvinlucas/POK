@@ -69,8 +69,7 @@
     }
 
     .dot {
-        position: absolute;
-        z-index: -1;
+       display: none;
     }
     .grille {
         position: absolute;
