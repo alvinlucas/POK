@@ -2,6 +2,9 @@
   html {
     scroll-behavior: smooth;
   }
+  header {
+    display: none;
+}
     .grille {
         position: absolute;
         top: 0%;
@@ -99,14 +102,111 @@
     cursor: pointer;
 }
 
-.video {
-    border: 4px solid black;
-    box-shadow: 4px 4px 0px black;
-    background-color: #A158FF;
-    height: 400px;
-    width: 250px;
-    text-align: center;
-    color: white;
-    margin-top: 50px;
+    .video {
+        border: 4px solid black;
+        box-shadow: 4px 4px 0px black;
+        background-color: #A158FF;
+        height: 400px;
+        width: 250px;
+        text-align: center;
+        color: white;
+        margin-top: 50px;
+    }
 }
+
+@media screen and (max-width: 400px) {
+       
+    .grille {
+        position: absolute;
+        top: 0%;
+        left: -20%;
+        z-index: -1;
+    }
+    .dot {
+        display: none;
+    }
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: minmax(100px, auto);
+        width: 90%;
+        margin: 5% auto;
+        margin-top: 20%;
+        margin-bottom: 10%;
+        z-index: 100;
+    }
+    .header {
+        display: flex;
+        flex-direction: column;
+        font-size: 13px;
+        margin-bottom: 2rem;
+    }
+    span {
+        font-family: 'Panchang-Bold';
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    .logo {
+        margin-bottom: 1rem;
+        width: 30%;
+    }
+    .real, .contact {
+        display: none;
+        margin-right: 0;
+        margin-bottom: 1rem;
+        font-weight: bold;
+    }
+    .text {
+        font-family: 'Panchang-Regular';
+        line-height: 2rem;
+        margin-bottom: 2rem;
+        font-size: 16px;
+        width: 100%;
+    }
+    .un, .deux {
+        display: block;
+        width: 100%;
+        padding: 1rem 0;
+        border-top: 3.5px solid black;
+        text-align: center;
+    }
+    .un {
+        color: white;
+        background-color: #587FFF;
+        width: 50%;
+    }
+    .un:hover {
+        background-color: white;
+        color: #587FFF;
+        box-shadow: none;
+    }
+    .deux {
+        color: black;
+        width: 80%;
+    }
+    .deux:hover {
+        color: #587FFF;
+        box-shadow: none;
+    } 
+    .button {
+        border: 3.5px solid black;
+        box-shadow: 4px 4px 0 black;
+        padding: 5px 10px;
+        display: block;
+        margin: 2rem auto;
+    }
+
+    .one, .two, .three, .four, .five {
+        width: 90%;
+    }
+
+    .item-logo {
+        display: none;
+    }
+
+    .video {
+        display: none;
+    }
 }

@@ -9,6 +9,7 @@ import { Router } from '@angular/router';
 })
 export class LandingPageComponent implements OnInit {
 
+
   constructor(private router: Router) { setTimeout(() => {
     this.router.navigateByUrl('/home');
   }, 1200); // Redirect after 3 seconds
