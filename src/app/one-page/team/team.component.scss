@@ -270,6 +270,7 @@
     .heads-wrapper {
         display: flex;
         flex-direction: column;
+        align-items: center;
         justify-content: center;
       }
 
@@ -314,17 +315,9 @@
         flex-direction: row;
     }
 
-    .prenom {
-        color: black;
-    }
-
-    .head .metier {
-        margin-left: 10px;
-    }
-
-    .head .prenom {
-        margin-left: 10px;
-    }
+   .heads-wrapper span {
+    display: none;
+   }
 
     .one .metier, .two .metier {
         color: #587FFF;
