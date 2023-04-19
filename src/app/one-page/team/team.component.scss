@@ -47,6 +47,9 @@
         grid-template-columns: repeat(5, 1fr);
         grid-auto-rows: minmax(200px, auto);
     }
+    .heads-wrapper span {
+        display:none;
+    }
     .heads-wrapper a {
         text-decoration: none;
         color: black;
