@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import {  faTwitter, faInstagram, faLinkedinIn, faFacebookF, } from '@fortawesome/free-brands-svg-icons';
+import {  faInstagram, faLinkedinIn, faFacebookF, } from '@fortawesome/free-brands-svg-icons';
 
 
 @Component({
@@ -10,7 +10,6 @@ import {  faTwitter, faInstagram, faLinkedinIn, faFacebookF, } from '@fortawesom
 })
 export class HomeComponent implements OnInit {
 
-  faTwitter = faTwitter;
   faInstagram = faInstagram;
   faLinkedin = faLinkedinIn;
   faFacebookF = faFacebookF;
